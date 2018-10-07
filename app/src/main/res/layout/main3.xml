@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:layout_margin="20dp">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Monto mensual:"
+		android:textSize="20dp"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:inputType="number"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:id="@+id/mensual"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Tipo de impuesto:"
+		android:textSize="20dp"/>
+
+	<Spinner
+		android:entries="@array/impuesto"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/tipo"/>
+
+	<Button
+		android:onClick="calcular"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="CALCULAR"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="TOTAL A PAGAR:"
+		android:textSize="20dp"/>
+
+	<EditText
+		android:editable="false"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:id="@+id/total"/>
+
+</LinearLayout>
+

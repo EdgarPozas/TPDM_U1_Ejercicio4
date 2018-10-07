@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TPDM_U1_Ejercicio4</string>
+    <string name="hello_world">Hello world!</string>
+	<string-array name="pantallas">
+		<item>Imagen</item>
+		<item>Impuestos</item>
+		<item>Acerca de...</item>
+		<item>Salir</item>
+	</string-array>
+	<string-array name="imagenes">
+		<item>Tux</item>
+		<item>Naruto</item>
+		<item>Logo Tec</item>
+		<item>Yo mismo</item>
+	</string-array>
+	<string-array name="impuesto">
+		<item>ISR</item>
+		<item>IVA</item>
+	</string-array>
+</resources>
